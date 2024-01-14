@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <section id="backGround">
+        <input type="search" class="form-control w-75 my-5" id="searchInput" placeholder=" Search City">
+        <div class="= w-100 h-50 temps" >
+            <div class="temp   p-4 rounded-3"  >
+                <h6 id="todayDate">date</h6>
+                <h2 id="city">cairo</h2>
+                <div class="d-flex justify-content-between my-3">
+                    <h2 id="todayTemp" class="d-inline-block pt-2">5°</h2>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" alt="" id="todayIcon">
+                </div>
+                <h5 id="todayCond">sunny</h5>
+    
+                <div class="d-flex justify-content-between winds mt-4">
+                    <h3 id="todayHumdity">20%</h3>
+                    <h3 id="todayWind">Wind</h3>
+                    <h3 id="todayDire">East</h3>
+                </div>
+            </div>
+            <div class="temp   p-3 text-center rounded-3 mx-3  p-4 rounded-3  d-flex flex-column" >
+                <h6 id="tomDate">date</h6>
+                <img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" alt="" width="70px" id="tomIcon" class="mx-auto my-2">
+                <h2 id="tomMaxTemp" class="d-inline-block pt-2">5°</h2>
+                <h4 id="tomMinTemp" class="d-inline-block pt-2">5°</h4>
+                <h5 id="tomCond" class="mt-4">sunny</h5>
+
+
+            </div>
+            <div class="temp   p-3 text-center rounded-3   p-4 rounded-3  d-flex flex-column" >
+                <h6 id="afterTomDate">date</h6>
+                <img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" alt="" width="70px" id="afterTomIcon" class="mx-auto my-2">
+                <h2 id="afterTomMaxTemp" class="d-inline-block pt-2">5°</h2>
+                <h4 id="afterTomMinTemp" class="d-inline-block pt-2">5°</h4>
+                <h5 id="afterTomCond" class="mt-4">sunny</h5>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
